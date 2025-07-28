@@ -1,2 +1,2 @@
 # interpret
-App for testing voice-text-translated_text-speech
+App for testing voice-text-translated_text-voice
