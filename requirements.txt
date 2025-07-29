@@ -1,0 +1,8 @@
+streamlit
+faster-whisper
+transformers
+sentencepiece
+pydub
+TTS
+torchaudio
+torch
