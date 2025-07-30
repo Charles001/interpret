@@ -1,6 +1,8 @@
 import tempfile
 from pydub import AudioSegment
 import os
+from pydub.utils import which
+AudioSegment.converter = which("ffmpeg")
 
 def convert_audio_to_wav(uploaded_file):
     # suffix = ".mp3" if uploaded_file.name.endswith(".mp3") else ".wav"
